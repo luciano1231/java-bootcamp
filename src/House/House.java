@@ -47,7 +47,16 @@ public class House {
 	public void setTerrainSize(int terrainSize) {
 		this.terrainSize = terrainSize;
 	}
-	
+	public House creatHouse(){
+		Scanner input = new Scanner(System.in);
+		System.out.println("Lets create your house!");
+		System.out.println("How many floors will have your house?");
+		int numFloor= input.nextInt();
+		House myHouse=new House();
+		Floor[] floor=new Floor[numFloor];
+		
+		
+	}
 	
 	
 }
