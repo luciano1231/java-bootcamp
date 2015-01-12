@@ -47,11 +47,11 @@ public class Floor {
 		floor.setNumber(numberOfFloor);		
 		System.out.println("how many rooms have this floor?:");
 		int nRooms= input.nextInt();
-		for (int i =0;i < nRooms;i ++){
+		for (int i =0;i < nRooms;i ++){ // create n rooms
 			Room room = new Room();
-			floor.getRoom().
-		}
-		
+			room.createARoom();
+			this.room[i]= room;
+			}		
 		return floor;
 	}
 }
